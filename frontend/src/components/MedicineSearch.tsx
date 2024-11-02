@@ -30,7 +30,7 @@ export default function MedicineSearch() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const API_URL = 'http://localhost:3001';
+  const API_URL = 'https://e-medicine-j4nt.onrender.com';
 
   // Fetch available filters
   useEffect(() => {
